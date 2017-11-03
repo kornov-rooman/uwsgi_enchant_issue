@@ -1,0 +1,23 @@
+*.py[cod]
+__pycache__/
+
+# Directories
+.idea
+.cache
+.ipynb_checkpoints
+docker/data/*
+
+static/*
+
+# Sphinx built documentation
+docs/_build/
+docs/api_docs.md
+
+# Translations
+*.mo
+
+# Files
+.env
+local_settings.py
+secret_settings.py
+celerybeat-schedule*
